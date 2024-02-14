@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isComplex64ndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex64ndarray-like@deno/mod.js';
+import isComplex64ndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex64ndarray-like@v0.2.0-deno/mod.js';
 ```
 
 #### isComplex64ndarrayLike( value )
@@ -72,7 +72,7 @@ var bool = isComplex64ndarrayLike( arr );
 ```javascript
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@deno/mod.js';
-import isComplex64ndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex64ndarray-like@deno/mod.js';
+import isComplex64ndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex64ndarray-like@v0.2.0-deno/mod.js';
 
 var buffer = new Complex64Array( [ 0, 0, 0, 0, 0, 0, 0, 0 ] );
 var arr = ndarray( 'complex64', buffer, [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
